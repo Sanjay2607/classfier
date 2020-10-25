@@ -12,8 +12,8 @@ def load_img(path):
 
 learn = load_learner_('export.pkl')
 
-st.markdown("# Animal Classifier")
-st.markdown("Upload an image and the classifier will tell you whether its a horse, dog or bear.")
+st.markdown("# Mirzapur Characters")
+st.markdown("Upload an image and the classifier will tell you character.")
 
 file_bytes = st.file_uploader("Upload a file", type=("png", "jpg", "jpeg", "jfif"))
 if file_bytes:
